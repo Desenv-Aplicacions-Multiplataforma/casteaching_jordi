@@ -5,14 +5,12 @@ namespace Tests\Feature;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
-class ExampleTest extends TestCase
+class VideoTest extends TestCase
 {
     /**
-     * A basic test example.
-     *
-     * @return void
+     * @test
      */
-    public function test_example()
+    public function users_can_view_videos()
     {
         $response = $this->get('/');
 
